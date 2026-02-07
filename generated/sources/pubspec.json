@@ -884,6 +884,20 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/yaml-3.1.3.tar.gz",
+        "sha256": "b9da305ac7c39faa3f030eccd175340f968459dae4af175130b3fc47e40d76ce",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/yaml-3.1.3"
+    },
+    {
+        "type": "inline",
+        "contents": "b9da305ac7c39faa3f030eccd175340f968459dae4af175130b3fc47e40d76ce",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "yaml-3.1.3.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/_fe_analyzer_shared-89.0.0.tar.gz",
         "sha256": "dd3d2ad434b9510001d089e8de7556d50c834481b9abc2891a0184a8493a19dc",
         "strip-components": 0,
@@ -2084,20 +2098,6 @@
         "contents": "b015a8ad1c488f66851d762d3090a21c600e479dc75e68328c52774040cf9226",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "xml-6.5.0.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/yaml-3.1.3.tar.gz",
-        "sha256": "b9da305ac7c39faa3f030eccd175340f968459dae4af175130b3fc47e40d76ce",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/yaml-3.1.3"
-    },
-    {
-        "type": "inline",
-        "contents": "b9da305ac7c39faa3f030eccd175340f968459dae4af175130b3fc47e40d76ce",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "yaml-3.1.3.sha256"
     },
     {
         "type": "archive",
