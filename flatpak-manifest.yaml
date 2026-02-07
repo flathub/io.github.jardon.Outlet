@@ -44,6 +44,11 @@ modules:
         url: https://github.com/jardon/outlet.git
         commit: b197266426b7d8d756907fc566221a53c6195484
         tag: 1.1.0
+        disable-submodules: true
+      - type: git
+        url: https://github.com/canonical/appstream.dart
+        commit: 9e4641d0d6b98855e2f2657091a360af91b9251a
+        dest: 'lib/appstream.dart'
       - type: git
         url: https://github.com/flutter/flutter.git
         tag: 3.38.9
