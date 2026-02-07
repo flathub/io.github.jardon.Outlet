@@ -53,6 +53,8 @@ modules:
         dest: lib/appstream.dart
       - type: patch
         path: flatpak-spawn.patch
+      - type: patch
+        path: launch-url.patch
       - generated/sources/pubspec.json
     post-install:
       - install -Dm644 dist/${FLATPAK_ID}.metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
