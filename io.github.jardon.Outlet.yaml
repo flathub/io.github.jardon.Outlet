@@ -220,4 +220,4 @@ modules:
                     x-checker-data:
                       type: git
                       url-template: $version
-      - generated/modules/flutter-sdk-3.38.6.json
+      - generated/modules/flutter-sdk-3.38.9.json
