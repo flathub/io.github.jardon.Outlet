@@ -1,0 +1,29 @@
+diff --git a/lib/views/components/app_links.dart b/lib/views/components/app_links.dart
+index dddfcd5..63eb035 100644
+--- a/lib/views/components/app_links.dart
++++ b/lib/views/components/app_links.dart
+@@ -1,3 +1,4 @@
++import 'dart:io';
+ import 'package:flutter/material.dart';
+ import 'package:outlet/appstream.dart/lib/src/url.dart';
+ import 'package:outlet/core/application.dart';
+@@ -5,8 +6,18 @@ import 'package:outlet/views/components/theme.dart';
+ import 'package:url_launcher/url_launcher.dart';
+ 
+ Future<void> _launchURL(String url) async {
++  if (Platform.isLinux) {
++    final result = await Process.run(
++      'gio', 
++      ['open', url],
++      environment: {'GIO_USE_PORTAL': '1'},
++    );
++
++    if (result.exitCode == 0) return;
++  }
++
+   if (await canLaunchUrl(Uri.parse(url))) {
+-    await launchUrl(Uri.parse(url));
++    await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+   } else {
+     throw 'Could not launch $url';
+   }
