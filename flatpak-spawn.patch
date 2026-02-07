@@ -1,0 +1,12 @@
+diff --git a/lib/core/flatpak_application.dart b/lib/core/flatpak_application.dart
+index dd59feb..2722bcd 100644
+--- a/lib/core/flatpak_application.dart
++++ b/lib/core/flatpak_application.dart
+@@ -162,6 +162,6 @@ class FlatpakApplication extends Application {
+ 
+   @override
+   String launchCommand() {
+-    return "flatpak run $id";
++    return "flatpak-spawn --host flatpak run $id";
+   }
+ }
