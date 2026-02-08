@@ -43,7 +43,7 @@ modules:
       - type: git
         url: https://github.com/jardon/outlet.git
         commit: b197266426b7d8d756907fc566221a53c6195484
-        tag: 1.1.0-rc1
+        tag: 1.1.0
         disable-submodules: true
       - type: git
         url: https://github.com/canonical/appstream.dart
