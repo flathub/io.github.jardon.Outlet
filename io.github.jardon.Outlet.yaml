@@ -96,8 +96,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/flatpak/flatpak
-            commit: 2a196e0bdefa240e29b3e2fd59ab7f7cd7071a32
-            tag: 1.17.5
+            commit: 9b21874f1a175a9b7c79175a221fa043e202ca73
+            tag: 1.17.6
             x-checker-data:
               type: git
               url-template: $version
