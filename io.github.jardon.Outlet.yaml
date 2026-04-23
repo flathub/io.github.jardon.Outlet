@@ -96,8 +96,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/flatpak/flatpak
-            commit: 2a196e0bdefa240e29b3e2fd59ab7f7cd7071a32
-            tag: 1.17.5
+            commit: 9b21874f1a175a9b7c79175a221fa043e202ca73
+            tag: 1.17.6
             x-checker-data:
               type: git
               url-template: $version
@@ -112,8 +112,8 @@ modules:
             sources:
               - type: git
                 url: https://github.com/containers/bubblewrap
-                commit: 124c4cdf4321f63ef17a1cb0ce8f9dd45bd7adbe
-                tag: v0.11.1
+                commit: 1b80120ef26a28e065e67f89bfef873f13bdd317
+                tag: v0.11.2
                 x-checker-data:
                   type: git
                   url-template: $version
@@ -182,8 +182,8 @@ modules:
                 sources:
                   - type: git
                     url: https://github.com/ostreedev/ostree
-                    tag: v2025.7
-                    commit: 134d144cb52ff018cfedfb936b661189bccc76e6
+                    tag: v2026.1
+                    commit: 84fcfe17adcc69b926e8205782c1f735c09bfdd9
                     x-checker-data:
                       type: anitya
                       project-id: 10899
